@@ -11,6 +11,7 @@ namespace FootballApi.Services
     public interface IMatchResultService
     {
         IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath);
+        string GetResult(MatchResult matchResult);
     }
 
     public class MatchResultService : IMatchResultService
@@ -36,6 +37,22 @@ namespace FootballApi.Services
             });
 
             return matchResults;
+        }
+
+        public string GetResult(MatchResult matchResult)
+        {
+            if (matchResult.AwayGoals > matchResult.HomeGoals)
+            {
+                return "Away win";
+            }
+            else if (matchResult.AwayGoals < matchResult.HomeGoals)
+            {
+                return "Home Win";
+            }
+            else
+            {
+                return "Draw";
+            }
         }
 
         //public IEnumerable<TableResult> CreateLeagueTable()
