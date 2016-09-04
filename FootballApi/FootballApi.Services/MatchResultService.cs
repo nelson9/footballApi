@@ -7,7 +7,13 @@ using System.Threading.Tasks;
 
 namespace FootballApi.Services
 {
-    public class MatchResultService
+
+    public interface IMatchResultService
+    {
+        IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath);
+    }
+
+    public class MatchResultService : IMatchResultService
     {
         private readonly ICsvReader _csvReader;
 
@@ -31,6 +37,13 @@ namespace FootballApi.Services
 
             return matchResults;
         }
+
+        //public IEnumerable<TableResult> CreateLeagueTable()
+        //{
+        //    var results = GetMatchResultsFromCsv(@"C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\input.csv");
+
+        //    return matchResults;
+        //}
 
     }
 }

@@ -99,3 +99,5 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\System.W
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.pdb

@@ -8,6 +8,7 @@ namespace FootballApi.Models
 {
     public class MatchResult
     {
+        public int Id { get; set; }
         public int GameWeek { get; set; }
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }

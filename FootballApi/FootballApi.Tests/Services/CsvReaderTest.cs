@@ -14,13 +14,11 @@ namespace FootballApi.Tests.Services
         public void ReadDataFromCsv_NotCsv()
         {
             //Arrange
-            var csvReader = new CsvReader();       
-
+            var csvReader = new CsvReader();    
 
             //Assert
             var ex = Assert.Throws<Exception>(() => csvReader.ReadDataFromCsv("abc.txt"));
             Assert.That(ex.Message, Is.EqualTo("Not a csv file"));
-
         }
 
         [Test]
@@ -29,13 +27,9 @@ namespace FootballApi.Tests.Services
             //Arrange
             var csvReader = new CsvReader();
 
-
             //Assert
             var ex = Assert.Throws<Exception>(() => csvReader.ReadDataFromCsv("abc.csv"));
             Assert.That(ex.Message, Is.EqualTo("File not found"));
-
         }
-
-
     }
 }
