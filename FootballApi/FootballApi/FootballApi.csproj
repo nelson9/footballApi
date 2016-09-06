@@ -77,6 +77,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MoreLinq, Version=1.4.18916.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
+      <HintPath>..\packages\morelinq.1.4.0\lib\net35\MoreLinq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SimpleInjector, Version=3.2.2.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
       <HintPath>..\packages\SimpleInjector.3.2.2\lib\net45\SimpleInjector.dll</HintPath>
       <Private>True</Private>
@@ -290,6 +294,10 @@
     <ProjectReference Include="..\FootballApi.Models\FootballApi.Models.csproj">
       <Project>{9117230d-b195-4a18-bd2b-585593c7d480}</Project>
       <Name>FootballApi.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FootballApi.Repository\FootballApi.Repository.csproj">
+      <Project>{ba153976-e585-4242-b7cc-291a5bd47523}</Project>
+      <Name>FootballApi.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\FootballApi.Services\FootballApi.Services.csproj">
       <Project>{24770bc0-c5ae-4d07-bd68-7be44ea71430}</Project>

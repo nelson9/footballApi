@@ -19,10 +19,10 @@ namespace FootballApi.DTO
             return new MatchResultDTO()
             {
                 AwayGoals = matchResult.AwayGoals,
-                AwayTeam = matchResult.AwayTeam,
+                AwayTeam = matchResult.AwayTeam.Name,
                 GameWeek = matchResult.GameWeek, 
                 HomeGoals = matchResult.HomeGoals,
-                HomeTeam = matchResult.HomeTeam,
+                HomeTeam = matchResult.HomeTeam.Name,
                 Result = GetResult(matchResult)                
             };
         }

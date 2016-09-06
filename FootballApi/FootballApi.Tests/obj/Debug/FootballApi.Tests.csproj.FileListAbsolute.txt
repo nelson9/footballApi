@@ -85,3 +85,7 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\De
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Moq.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Castle.Core.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Moq.xml
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.DTO.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.DTO.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Repository.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Repository.pdb

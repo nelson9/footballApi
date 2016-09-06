@@ -1,0 +1,7 @@
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\bin\Debug\FootballApi.Repository.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\bin\Debug\FootballApi.Repository.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\bin\Debug\FootballApi.Models.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\bin\Debug\FootballApi.Models.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\obj\Debug\FootballApi.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\obj\Debug\FootballApi.Repository.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Repository\obj\Debug\FootballApi.Repository.pdb
