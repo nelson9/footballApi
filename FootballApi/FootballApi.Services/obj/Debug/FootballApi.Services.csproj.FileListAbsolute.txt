@@ -1,11 +1,11 @@
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.pdb
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.pdb
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.dll
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.pdb
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.dll
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.xml

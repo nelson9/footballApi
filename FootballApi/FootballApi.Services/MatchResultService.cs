@@ -20,36 +20,17 @@ namespace FootballApi.Services
     }
 
     public class MatchResultService : IMatchResultService
-    {
-        private readonly ICsvReader _csvReader;
+    {     
         private readonly IMatchResultRepository _machResultRepository;
 
         public MatchResultService(ICsvReader csvReader, IMatchResultRepository matchResultRepository)
         {
-            _csvReader = csvReader;
-            _machResultRepository = matchResultRepository;
+           _machResultRepository = matchResultRepository;
         }
-
-        //public IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath)
-        //{
-        //    var lines = _csvReader.ReadDataFromCsv(filePath);
-
-        //    var matchResults = lines.Select(x => x.Split(',')).Select(x => new MatchResult
-        //    {
-        //        GameWeek = Convert.ToInt16(x[0]),
-        //        HomeTeam = x[1],
-        //        AwayTeam = x[2],
-        //        HomeGoals = Convert.ToInt16(x[3]),
-        //        AwayGoals = Convert.ToInt16(x[4]),
-        //    });
-
-        //    return matchResults;
-        //}
 
         public void SaveResult(MatchResult matchResult)
         {
             matchResult.Result = SetResult(matchResult);
-
         }
 
         public IEnumerable<MatchResult> GetGameWeekResults(int gameWeek)
@@ -70,50 +51,60 @@ namespace FootballApi.Services
         {
 
             var matchResults = _machResultRepository.GetMatchResults();
-            var homeTeams = matchResults.Select(x => x.HomeTeam);
-            var awayTeams = matchResults.Select(x => x.AwayTeam);          
-
-            var teams = homeTeams.Concat(awayTeams).DistinctBy(x => x.Name);
-           
+            var teams = matchResults.Select(x => x.HomeTeam).Union(matchResults.Select(x => x.AwayTeam)).DistinctBy(x => x.Name);
+       
             var tablResult = new List<TableResult>();
 
             foreach(var team in teams)
             {
-                var games = matchResults.Where(x => x.HomeTeam.Name == team.Name | x.AwayTeam.Name == team.Name);
-
-                var gameswon = games.Count(x => x.Result == Result.AwayWin || x.Result == Result.HomwWin);
-                var gamesdraw = games.Count(x => x.Result == Result.Draw);
-                var gameslost = games.Count() - gameswon- gamesdraw;                
-                var points = (3 * gameswon) + (gamesdraw);
-                var goalsFor = matchResults.Where(x => x.HomeTeam.Name == team.Name).Sum(x => x.HomeGoals) + matchResults.Where(x => x.AwayTeam.Name == team.Name).Sum(x => x.AwayGoals);
-                var goalsAgainst = matchResults.Where(x => x.HomeTeam.Name == team.Name).Sum(x => x.AwayGoals) + matchResults.Where(x => x.AwayTeam.Name == team.Name).Sum(x => x.HomeGoals);
-                var goalDiffernce = goalsFor - goalsAgainst;
-
-                var tableResult = new TableResult
-                {
-                    Team = team.Name,
-                    GamesLost = gameslost,
-                    GamesWon = gameswon,
-                    GamesPlayed = gameswon + gameslost + gamesdraw,
-                    Points = points,       
-                    GoalsFor = goalsFor,
-                    GoalsAgainst = goalsAgainst,
-                    GoalDifference = goalDiffernce        
-
-                };
-                tablResult.Add(tableResult);
+                tablResult.Add(CreateTable(matchResults, team));
             }
-            int i = 1;
-            var asdf = tablResult.OrderBy(x => x.GamesWon).ThenByDescending(x => x.Points).ThenByDescending(x => x.GoalDifference);
+                        
+            return RankTeam(tablResult).OrderBy(x => x.Position);
+        }
 
-            foreach (var a in asdf)
+        private IEnumerable<TableResult> RankTeam(List<TableResult> tableResult)
+        {
+            int i = 1;
+            var orderedResult = tableResult.OrderBy(x => x.GamesWon).ThenByDescending(x => x.Points).ThenByDescending(x => x.GoalDifference);
+
+            foreach (var a in orderedResult)
             {
                 a.Position = i;
                 i++;
             }
-            return tablResult.OrderBy(x => x.Position);
+
+            return orderedResult;
         }
     
+
+        private TableResult CreateTable(IEnumerable<MatchResult> matchResults, Team team)
+        {
+            var games = matchResults.Where(x => x.HomeTeam.Name == team.Name | x.AwayTeam.Name == team.Name);
+
+            var gameswon = games.Count(x => x.Result == Result.AwayWin || x.Result == Result.HomwWin);
+            var gamesdraw = games.Count(x => x.Result == Result.Draw);
+            var gameslost = games.Count() - gameswon - gamesdraw;
+            var points = (3 * gameswon) + (gamesdraw);
+            var goalsFor = matchResults.Where(x => x.HomeTeam.Name == team.Name).Sum(x => x.HomeGoals) + matchResults.Where(x => x.AwayTeam.Name == team.Name).Sum(x => x.AwayGoals);
+            var goalsAgainst = matchResults.Where(x => x.HomeTeam.Name == team.Name).Sum(x => x.AwayGoals) + matchResults.Where(x => x.AwayTeam.Name == team.Name).Sum(x => x.HomeGoals);
+            var goalDiffernce = goalsFor - goalsAgainst;
+
+            return new TableResult
+            {
+                Team = team.Name,
+                GamesLost = gameslost,
+                GamesWon = gameswon,
+                GamesDrawn = gamesdraw,
+                GamesPlayed = gameswon + gameslost + gamesdraw,
+                Points = points,
+                GoalsFor = goalsFor,
+                GoalsAgainst = goalsAgainst,
+                GoalDifference = goalDiffernce
+
+            };
+
+        }
 
         private Result SetResult(MatchResult matchResult)
         {

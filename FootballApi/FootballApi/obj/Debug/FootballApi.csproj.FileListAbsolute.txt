@@ -17,7 +17,9 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Football
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Antlr3.Runtime.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\EntityFramework.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\EntityFramework.SqlServer.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Models.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Services.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.DependencyCollector.dll
@@ -40,6 +42,7 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsof
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\MoreLinq.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Newtonsoft.Json.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Owin.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\SimpleInjector.dll
@@ -58,7 +61,9 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\System.W
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\System.Web.WebPages.Razor.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\WebActivator.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\WebGrease.dll
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.pdb
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Models.pdb
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.pdb
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Services.pdb
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
@@ -66,6 +71,7 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsof
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\MoreLinq.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\SimpleInjector.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\SimpleInjector.Extensions.ExecutionContextScoping.xml
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\SimpleInjector.Integration.WebApi.xml
@@ -99,9 +105,3 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\System.W
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.pdb
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.dll
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.pdb
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.dll
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.pdb
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\MoreLinq.dll
-C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\bin\MoreLinq.xml
