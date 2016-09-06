@@ -13,6 +13,7 @@ namespace FootballApi.Services
     {
         IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath);
         string GetResult(MatchResult matchResult);
+        string SaveResult(MatchResult matchResult);
     }
 
     public class MatchResultService : IMatchResultService
@@ -25,36 +26,25 @@ namespace FootballApi.Services
             _csvReader = csvReader;
         }
 
-        public IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath)
+        //public IEnumerable<MatchResult> GetMatchResultsFromCsv(string filePath)
+        //{
+        //    var lines = _csvReader.ReadDataFromCsv(filePath);
+
+        //    var matchResults = lines.Select(x => x.Split(',')).Select(x => new MatchResult
+        //    {
+        //        GameWeek = Convert.ToInt16(x[0]),
+        //        HomeTeam = x[1],
+        //        AwayTeam = x[2],
+        //        HomeGoals = Convert.ToInt16(x[3]),
+        //        AwayGoals = Convert.ToInt16(x[4]),
+        //    });
+
+        //    return matchResults;
+        //}
+
+        public Result SaveResult(MatchResult matchResult)
         {
-            var lines = _csvReader.ReadDataFromCsv(filePath);
-
-            var matchResults = lines.Select(x => x.Split(',')).Select(x => new MatchResult
-            {
-                GameWeek = Convert.ToInt16(x[0]),
-                HomeTeam = x[1],
-                AwayTeam = x[2],
-                HomeGoals = Convert.ToInt16(x[3]),
-                AwayGoals = Convert.ToInt16(x[4]),
-            });
-
-            return matchResults;
-        }
-
-        public Result GetResult(MatchResult matchResult)
-        {
-            if (matchResult.AwayGoals > matchResult.HomeGoals)
-            {
-                return  Result.AwayWin;
-            }
-            else if (matchResult.AwayGoals < matchResult.HomeGoals)
-            {
-                return Result.HomwWin;
-            }
-            else
-            {
-                return Result.Draw;
-            }
+            matchResult.Result = SetResult(matchResult);
         }
 
         public IEnumerable<MatchResult> GetGameWeekResults(int gameWeek)
@@ -70,12 +60,28 @@ namespace FootballApi.Services
             var results = _machResultRepository.GetMatchResults();
             var teamList = _machResultRepository.GetMatchResults().Select(x => x.HomeTeam).Distinct().ToList();
             var asdf = new List<TableResult>();
-            foreach (var match in results)
+            foreach (var match in results.Where(x => x.te)
             {
 
             }
 
             return matchResults;
+        }
+
+        private Result SetResult(MatchResult matchResult)
+        {
+            if (matchResult.AwayGoals > matchResult.HomeGoals)
+            {
+                return Result.AwayWin;
+            }
+            else if (matchResult.AwayGoals < matchResult.HomeGoals)
+            {
+                return Result.HomwWin;
+            }
+            else
+            {
+                return Result.Draw;
+            }
         }
 
     }

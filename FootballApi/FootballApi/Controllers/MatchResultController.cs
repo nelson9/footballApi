@@ -46,6 +46,8 @@ namespace FootballApi.Controllers
                     return BadRequest();
                 }
 
+                _matchResultService.
+
                 matchResult.Result = _matchResultService.GetResult(matchResult);
 
                 return CreatedAtRoute("Results", new { controller = "", id = matchResult.Id }, matchResult);
