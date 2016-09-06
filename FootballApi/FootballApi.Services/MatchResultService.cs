@@ -1,4 +1,5 @@
 ﻿using FootballApi.Models;
+using FootballApi.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace FootballApi.Services
     public class MatchResultService : IMatchResultService
     {
         private readonly ICsvReader _csvReader;
+        private readonly IMatchResultRepository _machResultRepository;
 
         public MatchResultService(ICsvReader csvReader)
         {
@@ -39,28 +41,42 @@ namespace FootballApi.Services
             return matchResults;
         }
 
-        public string GetResult(MatchResult matchResult)
+        public Result GetResult(MatchResult matchResult)
         {
             if (matchResult.AwayGoals > matchResult.HomeGoals)
             {
-                return "Away win";
+                return  Result.AwayWin;
             }
             else if (matchResult.AwayGoals < matchResult.HomeGoals)
             {
-                return "Home Win";
+                return Result.HomwWin;
             }
             else
             {
-                return "Draw";
+                return Result.Draw;
             }
         }
 
-        //public IEnumerable<TableResult> CreateLeagueTable()
-        //{
-        //    var results = GetMatchResultsFromCsv(@"C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi\input.csv");
+        public IEnumerable<MatchResult> GetGameWeekResults(int gameWeek)
+        {
+            return _machResultRepository.GetGameWeek(gameWeek);
+        }
+        public int InsertMathResult(MatchResult matchResult)
+        {
+            return _machResultRepository.InsertMatchResult(matchResult);
+        }
+        public IEnumerable<TableResult> CreateLeagueTable()
+        {
+            var results = _machResultRepository.GetMatchResults();
+            var teamList = _machResultRepository.GetMatchResults().Select(x => x.HomeTeam).Distinct().ToList();
+            var asdf = new List<TableResult>();
+            foreach (var match in results)
+            {
 
-        //    return matchResults;
-        //}
+            }
+
+            return matchResults;
+        }
 
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24770BC0-C5AE-4D07-BD68-7BE44EA71430}</ProjectGuid>
+    <ProjectGuid>{BA153976-E585-4242-B7CC-291A5BD47523}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FootballApi.Services</RootNamespace>
-    <AssemblyName>FootballApi.Services</AssemblyName>
+    <RootNamespace>FootballApi.Repository</RootNamespace>
+    <AssemblyName>FootballApi.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,18 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CsvReader.cs" />
-    <Compile Include="MatchResultService.cs" />
+    <Compile Include="IMatchResultRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FootballApi.Models\FootballApi.Models.csproj">
       <Project>{9117230d-b195-4a18-bd2b-585593c7d480}</Project>
       <Name>FootballApi.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FootballApi.Repository\FootballApi.Repository.csproj">
-      <Project>{ba153976-e585-4242-b7cc-291a5bd47523}</Project>
-      <Name>FootballApi.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

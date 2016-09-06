@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.Models", "Footb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.DTO", "FootballApi.DTO\FootballApi.DTO.csproj", "{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.Repository", "FootballApi.Repository\FootballApi.Repository.csproj", "{BA153976-E585-4242-B7CC-291A5BD47523}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA153976-E585-4242-B7CC-291A5BD47523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA153976-E585-4242-B7CC-291A5BD47523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA153976-E585-4242-B7CC-291A5BD47523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA153976-E585-4242-B7CC-291A5BD47523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
