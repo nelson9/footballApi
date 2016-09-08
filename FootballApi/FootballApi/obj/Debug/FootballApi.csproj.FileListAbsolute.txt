@@ -212,3 +212,9 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\System
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.csprojResolveAssemblyReference.cache
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Data.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Data.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.Migrations.InitalCreate.resources
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.csproj.GenerateResource.Cache
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.Migrations.InitalCreate1.resources
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\obj\Debug\FootballApi.Migrations.asdf.resources

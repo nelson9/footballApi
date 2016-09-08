@@ -12,7 +12,7 @@ namespace FootballApi.Data
     public class FootballLeaugeContext : DbContext
     {
         public FootballLeaugeContext()
-            : base("ConnectionString")
+            : base("FootballLeaugeContext")
         {
 
         }
@@ -27,13 +27,13 @@ namespace FootballApi.Data
             modelBuilder.Entity<MatchResult>()
                 .HasRequired(m => m.HomeTeam)
                     .WithMany(t => t.HomeResults)
-                    .HasForeignKey(m => m.HomeTeam.Id)
+                    .HasForeignKey(m => m.HomeTeamId)
                     .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<MatchResult>()
                 .HasRequired(m => m.AwayTeam)
                     .WithMany(t => t.AwayResults)
-                    .HasForeignKey(m => m.AwayTeam.Id)
+                    .HasForeignKey(m => m.AwayTeamId)
                     .WillCascadeOnDelete(false);
         }
     }

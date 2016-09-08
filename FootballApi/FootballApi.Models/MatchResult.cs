@@ -11,6 +11,8 @@ namespace FootballApi.Models
     {
         public int Id { get; set; }
         public int GameWeek { get; set; }
+        public int HomeTeamId { get; set; }
+        public int AwayTeamId { get; set; }
         public virtual Team HomeTeam { get; set; }
         public virtual Team AwayTeam { get; set; }
         public int HomeGoals { get; set; }
