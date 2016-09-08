@@ -5,3 +5,10 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.DTO\bin\Debu
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.csprojResolveAssemblyReference.cache
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\obj\Debug\FootballApi.DTO.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\bin\Debug\FootballApi.DTO.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\bin\Debug\FootballApi.DTO.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\bin\Debug\FootballApi.Models.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.DTO\bin\Debug\FootballApi.Models.pdb

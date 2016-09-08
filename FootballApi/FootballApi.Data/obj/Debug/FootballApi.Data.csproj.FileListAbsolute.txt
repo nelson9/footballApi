@@ -1,0 +1,12 @@
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\FootballApi.Data.dll.config
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\FootballApi.Data.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\FootballApi.Data.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\EntityFramework.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\FootballApi.Models.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\FootballApi.Models.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\EntityFramework.xml
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\obj\Debug\FootballApi.Data.csprojResolveAssemblyReference.cache
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\obj\Debug\FootballApi.Data.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Data\obj\Debug\FootballApi.Data.pdb

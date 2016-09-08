@@ -9,3 +9,14 @@ C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\bin
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.dll
 C:\Users\Niall\Documents\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.csprojResolveAssemblyReference.cache
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\obj\Debug\FootballApi.Services.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.xml

@@ -9,23 +9,23 @@ namespace FootballApi.DTO
 {
     public interface IMatchResultDTOFactory
     {
-        MatchResultDTO CreateMatchResultDto(MatchResult matchResult);
+        //MatchResultDTO CreateMatchResultDto(MatchResult matchResult);
     }
 
     public class MatchResultDTOFactory : IMatchResultDTOFactory
     {
-        public MatchResultDTO CreateMatchResultDto(MatchResult matchResult)
-        {
-            return new MatchResultDTO()
-            {
-                AwayGoals = matchResult.AwayGoals,
-                AwayTeam = matchResult.AwayTeam.Name,
-                GameWeek = matchResult.GameWeek, 
-                HomeGoals = matchResult.HomeGoals,
-                HomeTeam = matchResult.HomeTeam.Name,
-                Result = GetResult(matchResult)                
-            };
-        }
+        //public MatchResultDTO CreateMatchResultDto(MatchResult matchResult)
+        //{
+        //    return new MatchResultDTO()
+        //    {
+        //        AwayGoals = matchResult.AwayGoals,
+        //        AwayTeam = matchResult.AwayTeam.Name,
+        //        GameWeek = matchResult.GameWeek, 
+        //        HomeGoals = matchResult.HomeGoals,
+        //        HomeTeam = matchResult.HomeTeam.Name,
+        //        Result = GetResult(matchResult)                
+        //    };
+        //}
 
         private string GetResult(MatchResult matchResult)
         {

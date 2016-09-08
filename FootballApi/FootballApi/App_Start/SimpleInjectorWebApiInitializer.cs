@@ -29,7 +29,7 @@ namespace FootballApi.App_Start
         private static void InitializeContainer(Container container)
         {
             container.Register<ICsvReader, CsvReader>(Lifestyle.Scoped);
-            container.Register<IMatchResultService, MatchResultService>(Lifestyle.Scoped);
+            //container.Register<IMatchResultService, MatchResultService>(Lifestyle.Scoped);
             container.Register<IMatchResultDTOFactory, MatchResultDTOFactory>(Lifestyle.Scoped);
             container.Register<IMatchResultRepository, MatchResultRepository>(Lifestyle.Scoped);
         }
