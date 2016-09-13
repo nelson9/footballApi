@@ -126,7 +126,6 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\Entity
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\EntityFramework.SqlServer.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Models.dll
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Services.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.DependencyCollector.dll
@@ -170,7 +169,6 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\WebAct
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\WebGrease.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.DTO.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Models.pdb
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Repository.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\FootballApi.Services.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi\bin\Microsoft.AI.ServerTelemetryChannel.xml

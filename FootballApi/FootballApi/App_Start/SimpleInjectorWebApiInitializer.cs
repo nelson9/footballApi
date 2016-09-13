@@ -7,7 +7,7 @@ namespace FootballApi.App_Start
     using SimpleInjector.Integration.WebApi;
     using Services;
     using DTO;
-    using Repository;
+
     public static class SimpleInjectorWebApiInitializer
     {
         /// <summary>Initialize the container and register it as Web API Dependency Resolver.</summary>
@@ -31,7 +31,6 @@ namespace FootballApi.App_Start
             container.Register<ICsvReader, CsvReader>(Lifestyle.Scoped);
             //container.Register<IMatchResultService, MatchResultService>(Lifestyle.Scoped);
             container.Register<IMatchResultDTOFactory, MatchResultDTOFactory>(Lifestyle.Scoped);
-            container.Register<IMatchResultRepository, MatchResultRepository>(Lifestyle.Scoped);
         }
     }
     

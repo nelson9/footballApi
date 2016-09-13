@@ -53,10 +53,6 @@
       <Project>{9117230d-b195-4a18-bd2b-585593c7d480}</Project>
       <Name>FootballApi.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FootballApi.Repository\FootballApi.Repository.csproj">
-      <Project>{ba153976-e585-4242-b7cc-291a5bd47523}</Project>
-      <Name>FootballApi.Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

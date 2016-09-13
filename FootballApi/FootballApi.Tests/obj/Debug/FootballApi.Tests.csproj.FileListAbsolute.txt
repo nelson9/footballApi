@@ -129,7 +129,6 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Repository.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\WebActivator.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.Optimization.dll
@@ -162,7 +161,6 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Repository.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Microsoft.Owin.xml
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\System.Web.Optimization.xml
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
@@ -180,3 +178,5 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\obj\Debug\FootballApi.Tests.csprojResolveAssemblyReference.cache
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\obj\Debug\FootballApi.Tests.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\obj\Debug\FootballApi.Tests.pdb
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Data.dll
+C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Tests\bin\Debug\FootballApi.Data.pdb

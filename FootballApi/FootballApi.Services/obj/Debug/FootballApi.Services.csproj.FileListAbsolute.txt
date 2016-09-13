@@ -15,8 +15,6 @@ C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\o
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Services.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.dll
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.dll
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Models.pdb
-C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\FootballApi.Repository.pdb
 C:\Users\nferguson\Desktop\GitHub\footballApi\FootballApi\FootballApi.Services\bin\Debug\MoreLinq.xml

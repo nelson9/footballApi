@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.Models", "Footb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.DTO", "FootballApi.DTO\FootballApi.DTO.csproj", "{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.Repository", "FootballApi.Repository\FootballApi.Repository.csproj", "{BA153976-E585-4242-B7CC-291A5BD47523}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.Data", "FootballApi.Data\FootballApi.Data.csproj", "{772120CA-2818-4460-BE35-D8BFB57D9321}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7FEA3BB-8E30-4DB2-9488-010ACAB8888E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA153976-E585-4242-B7CC-291A5BD47523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA153976-E585-4242-B7CC-291A5BD47523}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA153976-E585-4242-B7CC-291A5BD47523}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA153976-E585-4242-B7CC-291A5BD47523}.Release|Any CPU.Build.0 = Release|Any CPU
 		{772120CA-2818-4460-BE35-D8BFB57D9321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{772120CA-2818-4460-BE35-D8BFB57D9321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772120CA-2818-4460-BE35-D8BFB57D9321}.Release|Any CPU.ActiveCfg = Release|Any CPU
